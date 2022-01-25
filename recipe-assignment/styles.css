@@ -1,3 +1,49 @@
+html {
+    background-color: #E3D8C4;
+}
+
+h1, h2 {
+    color:#EE6601;
+    -webkit-text-stroke: .1px black;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
 p {
-    color: blue;
-  }
+    font-size: 20px;
+}
+
+ul, ol {
+    font-size: 20px;
+}
+
+figure {
+    width: 600px;
+    margin-left: 0;
+}
+
+figcaption {
+    width: 600px;
+}
+
+.description {
+    width: 600px;
+}
+
+.left {
+    width: 600px;
+    float: left;
+}
+
+.right {
+    width: 600px;
+    float: left;
+    margin-left: 30px;
+}
