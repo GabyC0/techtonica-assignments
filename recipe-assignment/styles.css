@@ -47,3 +47,77 @@ figcaption {
     float: left;
     margin-left: 30px;
 }
+
+
+
+
+/* mobile view */
+@media (max-width: 630px) {
+
+    img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left {
+        
+        width: 100%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    figcaption {
+        width: 100%;
+    }
+
+    figure {
+        width: 100%;
+    }
+
+
+};
+
+/* Desktop view */
+@media (max-width: 1260px) { 
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .description {
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left {
+        align-content: center;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right {
+        align-content: center;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+};
+
+
