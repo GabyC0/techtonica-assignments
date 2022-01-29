@@ -2,6 +2,10 @@ html {
     background-color: #E3D8C4;
 }
 
+body {
+    margin: 60px;
+}
+
 h1, h2 {
     color:#EE6601;
     -webkit-text-stroke: .1px black;
@@ -10,6 +14,7 @@ h1, h2 {
 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
 
 h2 {
@@ -24,28 +29,67 @@ ul, ol {
     font-size: 20px;
 }
 
+ul {
+    padding-top: 30px;
+}
+
+.li-padding {
+    padding-top: 50px;
+}
+
+.top {
+    align-content: center;
+    margin-bottom: 70px;
+}
+
 figure {
-    width: 600px;
-    margin-left: 0;
+    width: 400px;
+    /* height: 400px; */
+    
+}
+
+img {
+    width: 400px;
 }
 
 figcaption {
-    width: 600px;
+    width: 300px;
 }
 
 .description {
-    width: 600px;
+    /* width: 600px; */
+    text-align: center;
 }
 
 .left {
-    width: 600px;
+    width: 25%;
     float: left;
+    margin-left: 55px;
+    padding-top: 50px;
+    
+}
+
+.middle {
+    width: 25%;
+    height: 500px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 90px;
+    float: left;
+    background-image: url('list.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .right {
-    width: 600px;
+    width: 33%;
     float: left;
     margin-left: 30px;
+}
+
+.bottom {
+    width: 100%;
+    float: left;
 }
 
 
@@ -62,7 +106,7 @@ figcaption {
 
     .left {
         
-        width: 100%;
+        width: 33%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
