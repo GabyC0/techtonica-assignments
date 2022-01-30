@@ -23,6 +23,7 @@ h2 {
 
 p {
     font-size: 20px;
+    padding-bottom: 18px;
 }
 
 ul, ol {
@@ -31,6 +32,11 @@ ul, ol {
 
 ul {
     padding-top: 30px;
+}
+
+hr {
+    width: 10%;
+    background-color: red;
 }
 
 .li-padding {
