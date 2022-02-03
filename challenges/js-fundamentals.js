@@ -127,12 +127,13 @@ console.log(arrOfNums[0][0]); //1
 
 function timeSinceMidnight() {
     let currentDate = new Date();
+    console.log(currentDate);
     let currentTime = currentDate.getTime();
         console.log(currentTime);
     let midnight = new Date(2022, 1, 3,00,00,00).getTime();
         console.log(midnight);
     let timeDiff = currentDate - midnight;
-        return timeDiff/(1000 * 60);
+        console.log(timeDiff/(1000 * 60));
 }
 
 timeSinceMidnight();
