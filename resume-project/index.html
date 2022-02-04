@@ -7,7 +7,7 @@
     <link rel="icon" href="gumball.png">
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Shadows+Into+Light&display=swap" rel="stylesheet">
   </head>
@@ -44,13 +44,15 @@
       <h2>Get In Touch.</h2>
       <img class="contact-img" src="images/contacts.png" alt="contacts-img">
       <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+
+
       <div class="container">
-          <form action="#">
+          <form >
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="First">
 
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastName" placeholder="Last">
+              <input type="text" id="lname" name="lastName" placeholder="Last" onblur="getVal()">
 
               <label class="mail"for="email">Email</label>
               <input type="email" id="email" name="email" placeholder="Email">
@@ -66,7 +68,9 @@
                 </div>
 
                 <div class="row">
-                    <input type="submit" value="Submit">
+                    <input onclick="thanksMsg()" type="submit" value="Submit">
+
+                    <p id="demo"></p>
                 </div>
 
                   </div>
@@ -79,9 +83,10 @@
   </div>
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/gabriela-campos1/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/gc_codes">Twitter</a>
+    <a class="footer-link" href="https://twitter.com/_gaby_campos">Twitter</a>
     <a class="footer-link" href="https://www.gabycampos.com">Website</a>
     <p>© 2022 Gabriela Campos</p>
   </div>
   </body>
+  <script src="js/main.js"></script>
 </html>
