@@ -8,16 +8,20 @@ function ValidateEmail(mail)
     return (false)
 }
 
-document.getElementById("fname").onsubmit = function thanksMsg() {
-    console.log("Thanks for your message!");
-    document.getElementById("demo").innerHTML = "hello"
+    function thanksMsg() {
+        console.log("Thanks for your message!");
+    // document.getElementById("demo").innerHTML = "hello"
 };
+//thanksMsg();
 
-thanksMsg();
+function getFirst() {
+    const first = document.querySelector('input').value;
+    console.log(first);
+  }
 
-function getVal() {
-    const val = document.querySelector('input').value;
-    console.log(val);
+  function getLast() {
+    const last = document.querySelector('input').value;
+    console.log(last);
   }
 
 
