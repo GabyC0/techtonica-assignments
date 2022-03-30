@@ -130,7 +130,7 @@ function timeSinceMidnight() {
     console.log(currentDate);
     let currentTime = currentDate.getTime();
         console.log(currentTime);
-    let midnight = new Date(2022, 1, 3,00,00,00).getTime();
+    let midnight = new Date(2022, 1, 3,00,00,00).getTime(); // This should be 2022, 2, 3 - 
         console.log(midnight);
     let timeDiff = currentDate - midnight;
         console.log(timeDiff/(1000 * 60));
